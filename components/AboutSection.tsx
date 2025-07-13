@@ -15,7 +15,7 @@ import {
   Clock,
   CheckCircle,
 } from 'lucide-react'
-import NetoProfileCard from './NetoProfileCard'
+import PedroProfileCard from './PedroProfileCard'
 
 export default function AboutSection() {
   return (
@@ -27,7 +27,7 @@ export default function AboutSection() {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-primary-400 to-primary-700 rounded-full text-white text-xs sm:text-sm font-bold mb-8">
                 <Star className="w-4 h-4 mr-2" />
-                Bacharelado em Educação Física
+                Especialista em Jiu-Jitsu e Transformação Corporal
               </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 sm:mb-8">
                 Conheça
@@ -37,15 +37,15 @@ export default function AboutSection() {
                 </span>
               </h2>
               <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
-                Especialista em transformação corporal. Mais de{' '}
+                Atleta de Jiu-Jitsu e especialista em transformação corporal. Mais de{' '}
                 {personalTrainerConfig.clientsTransformed.replace('+', '')}{' '}
-                alunos já alcançaram seus objetivos comigo.
+                alunos já alcançaram seus objetivos com resultados mensuráveis e sustentáveis.
               </p>
             </div>
 
             {/* Credenciais e Conquistas */}
             <div className="grid grid-cols-2 gap-4 sm:gap-6">
-              <div className="bg-[#140808] p-4 sm:p-6 rounded-xl border border-primary-400/30 hover:border-primary-400/60 transition-all duration-300">
+              <div className="bg-secondary-500/50 p-4 sm:p-6 rounded-xl border border-primary-400/30 hover:border-primary-400/60 transition-all duration-300">
                 <div className="flex items-center gap-3 mb-3">
                   <Award className="w-6 h-6 text-primary-400" />
                   <span className="font-bold text-white text-sm sm:text-base">CREF Ativo</span>
@@ -53,7 +53,7 @@ export default function AboutSection() {
                 <p className="text-xs sm:text-sm text-gray-400">{personalTrainerConfig.cref}</p>
               </div>
               
-              <div className="bg-[#140808] p-4 sm:p-6 rounded-xl border border-primary-700/30 hover:border-primary-700/60 transition-all duration-300">
+              <div className="bg-secondary-500/50 p-4 sm:p-6 rounded-xl border border-primary-700/30 hover:border-primary-700/60 transition-all duration-300">
                 <div className="flex items-center gap-3 mb-3">
                   <Users className="w-6 h-6 text-primary-700" />
                   <span className="font-bold text-white text-sm sm:text-base">
@@ -73,7 +73,7 @@ export default function AboutSection() {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                 {personalTrainerConfig.specialties.map((specialty, index) => (
-                  <div key={index} className="flex items-center gap-3 p-3 bg-[#140808] rounded-lg border border-gray-700/30 hover:border-primary-400/30 transition-all duration-300">
+                  <div key={index} className="flex items-center gap-3 p-3 bg-secondary-500/50 rounded-lg border border-gray-700/30 hover:border-primary-400/30 transition-all duration-300">
                     <CheckCircle className="w-5 h-5 text-primary-400 flex-shrink-0" />
                     <span className="text-white font-medium text-sm sm:text-base">{specialty}</span>
                   </div>
@@ -137,9 +137,9 @@ export default function AboutSection() {
             </div>
           </div>
 
-          {/* Card 3D de Neto Oliveira */}
+          {/* Card 3D de Pedro Medeiros */}
           <div className="relative mx-auto lg:mx-0 lg:ml-12 order-1 lg:order-2 w-full max-w-sm sm:max-w-md lg:max-w-none">
-            <NetoProfileCard />
+            <PedroProfileCard />
           </div>
         </div>
       </div>

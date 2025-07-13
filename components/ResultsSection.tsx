@@ -43,7 +43,7 @@ export default function ResultsSection() {
               badge: 'TOP', 
               color: 'primary-400', 
               img: '/prova-social/joaosilva.png', 
-              depo: 'O treino com o Neto foi adaptado ao meu dia corrido. Hoje estou magro, me sinto forte e não tenho mais dores. Recomendo muito!',
+              depo: 'O treino com o Pedro foi adaptado ao meu dia corrido. Hoje estou magro, me sinto forte e não tenho mais dores. Recomendo muito!',
               icon: Trophy
             },
             { 
@@ -52,7 +52,7 @@ export default function ResultsSection() {
               badge: 'PRO', 
               color: 'primary-600', 
               img: '/prova-social/mariasantos.png', 
-              depo: 'Nunca achei que emagrecer fosse possível nessa idade. O Neto me ensinou a treinar em casa mesmo, de forma simples e segura. Mudou minha vida!',
+              depo: 'Nunca achei que emagrecer fosse possível nessa idade. O Pedro me ensinou a treinar em casa mesmo, de forma simples e segura. Mudou minha vida!',
               icon: Star
             },
             { 
@@ -61,7 +61,7 @@ export default function ResultsSection() {
               badge: 'EXPERT', 
               color: 'primary-400', 
               img: '/prova-social/anaoliveira.png', 
-              depo: 'O acompanhamento do Neto fez toda a diferença. Ele sempre esteve presente, dando orientações práticas. Finalmente estou feliz com meu corpo!',
+              depo: 'O acompanhamento do Pedro fez toda a diferença. Ele sempre esteve presente, dando orientações práticas. Finalmente estou feliz com meu corpo!',
               icon: Award
             }
           ].map((testimonial, index) => (
@@ -108,7 +108,7 @@ export default function ResultsSection() {
             className="group inline-flex items-center bg-black/40 border border-primary-400/30 hover:border-primary-400/70 text-white px-8 sm:px-10 lg:px-12 py-4 sm:py-5 rounded-xl sm:rounded-2xl font-bold text-lg sm:text-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary-400/20 backdrop-blur-sm gap-2"
           >
             <Target className="w-5 h-5" />
-            Ver Mais Transformações
+            Ver Mais Resultados
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
           </a>
         </div>

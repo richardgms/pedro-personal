@@ -47,8 +47,8 @@
 
 @layer components {
   /* Gradient Classes */
-  .gradient-orange-red {
-    background: linear-gradient(135deg, #F87171 0%, #B91C1C 100%);
+  .gradient-primary-blue {
+    background: linear-gradient(135deg, #00D4FF 0%, #009BC1 100%);
   }
   
   /* Hover Effects */
@@ -57,7 +57,7 @@
   }
   
   .hover-glow:hover {
-    box-shadow: 0 0 20px rgba(89, 232, 230, 0.3);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
   }
   
   /* Button Styles */

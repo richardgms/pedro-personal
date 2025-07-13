@@ -18,7 +18,7 @@ export default function HeroSection() {
           <div className="space-y-6 sm:space-y-8 lg:space-y-10 text-center lg:text-left mt-6 lg:mt-0">
             <div className="space-y-4 sm:space-y-6">
               <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-black/40 backdrop-blur-md rounded-full text-primary-500 text-xs sm:text-sm font-bold border border-primary-500/30 shadow-lg">
-                ⭐ Transformação em 30 dias
+                🥋 Especialista em Jiu-Jitsu & Transformação Corporal
               </div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-extrabold leading-none text-white tracking-tight">
                 TRANSFORME
@@ -46,7 +46,7 @@ export default function HeroSection() {
                 href="#resultados" 
                 className="bg-black/40 border border-primary-500/30 hover:border-primary-500/70 backdrop-blur-sm text-white hover:bg-black/60 px-10 py-5 rounded-2xl text-xl font-bold transition-all duration-300 hover:shadow-lg hover:shadow-primary-500/10"
               >
-                Ver Transformações
+                Ver Resultados
               </a>
             </div>
 

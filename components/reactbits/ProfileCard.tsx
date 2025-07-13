@@ -238,7 +238,6 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
       <section ref={cardRef} className="pc-card">
         <div className="pc-inside">
           <div className="pc-shine" />
-          <div className="pc-glare" />
           <div className="pc-content pc-avatar-content">
             <img className="avatar" src={avatarUrl} alt={`${name} avatar`} loading="lazy" onError={(e) => ((e.target as HTMLImageElement).style.display = 'none')} />
             {showUserInfo && (

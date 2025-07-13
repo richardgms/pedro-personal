@@ -9,17 +9,22 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: `${personalTrainerConfig.fullName} - Personal Trainer`,
   description:
-    'Personal Trainer especialista em transformação corporal. Consultoria online e presencial. Resultados de verdade para sua saúde e autoestima!',
+    'Pedro Medeiros - Personal Trainer especialista em Jiu-Jitsu e transformação corporal. Consultoria online e presencial com resultados mensuráveis. Treinamento desportivo e qualidade de vida!',
   keywords: [
+    'pedro medeiros',
     'personal trainer',
+    'jiu-jitsu',
     'transformação corporal',
-    'queimar gordura',
-    'ganhar músculo',
+    'hipertrofia',
+    'emagrecimento',
+    'treinamento desportivo',
     'consultoria online',
     'treino presencial',
+    'avaliação física',
+    'resultados mensuráveis',
+    'qualidade de vida',
     personalTrainerConfig.fullName.toLowerCase(),
-    'personal trainer online',
-    'transformação de verdade',
+    'personal trainer paraíba',
   ],
   authors: [{ name: personalTrainerConfig.fullName }],
   creator: personalTrainerConfig.fullName,
@@ -41,14 +46,14 @@ export const metadata: Metadata = {
     url: personalTrainerConfig.website,
     title: `${personalTrainerConfig.fullName} - Personal Trainer`,
     description:
-      'Transformação corporal real com metodologia científica. Resultados de verdade para sua saúde e autoestima!',
+      'Pedro Medeiros - Especialista em Jiu-Jitsu e transformação corporal. Consultoria online e presencial com resultados mensuráveis. Treinamento desportivo e qualidade de vida!',
     siteName: `${personalTrainerConfig.fullName} Personal Trainer`,
   },
   twitter: {
     card: 'summary_large_image',
     title: `${personalTrainerConfig.fullName} - Personal Trainer`,
     description:
-      'Transformação corporal real com metodologia científica. Resultados de verdade para sua saúde e autoestima!',
+      'Pedro Medeiros - Especialista em Jiu-Jitsu e transformação corporal. Consultoria online e presencial com resultados mensuráveis. Treinamento desportivo e qualidade de vida!',
   },
   verification: {
     google: 'your-google-verification-code',
@@ -69,8 +74,8 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link rel="icon" href="/logo/monogram.png" type="image/png" />
-        <meta name="theme-color" content="#DC2626" />
-        <meta name="msapplication-TileColor" content="#DC2626" />
+        <meta name="theme-color" content="#00D4FF" />
+        <meta name="msapplication-TileColor" content="#00D4FF" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         
         {/* WhatsApp Meta Tags */}
@@ -88,7 +93,7 @@ export default function RootLayout({
               name: personalTrainerConfig.fullName,
               jobTitle: personalTrainerConfig.title,
               description:
-                'Personal Trainer especialista em transformações corporais',
+                'Personal Trainer especialista em Jiu-Jitsu e transformação corporal com resultados mensuráveis',
               url: personalTrainerConfig.website,
               address: {
                 '@type': 'PostalAddress',
@@ -105,7 +110,7 @@ export default function RootLayout({
                   '@type': 'Service',
                   name: 'Consultoria Personal Trainer',
                   description:
-                    'Consultoria online e presencial para transformação corporal',
+                    'Consultoria online e presencial para jiu-jitsu, transformação corporal e treinamento desportivo',
                 },
               },
             }),

@@ -1,7 +1,7 @@
 {
-  "name": "michael-fire-personal-trainer",
+  "name": "pedro-medeiros-personal-trainer",
   "version": "1.0.0",
-  "description": "Site do Personal Trainer Michael Fire Martins - Transformação EXTREMA",
+  "description": "Site do Personal Trainer Pedro Medeiros - Especialista em Jiu-Jitsu e Transformação Corporal",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -25,17 +25,21 @@
     "@types/react": "^18.2.25",
     "@types/react-dom": "^18.2.11",
     "eslint": "^8.52.0",
-    "eslint-config-next": "^14.0.0",
+    "eslint-config-next": "^14.2.30",
     "typescript": "^5.2.2"
   },
   "keywords": [
     "personal-trainer",
+    "jiu-jitsu",
     "fitness",
-    "transformacao",
-    "paraiba",
+    "transformacao-corporal",
+    "hipertrofia",
+    "emagrecimento",
     "consultoria-online",
-    "michael-martins"
+    "treinamento-desportivo",
+    "pedro-medeiros",
+    "paraiba"
   ],
-  "author": "Michael Fire Martins",
+  "author": "Pedro Medeiros",
   "license": "MIT"
 }

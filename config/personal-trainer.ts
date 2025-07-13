@@ -72,30 +72,30 @@ export interface PersonalTrainerConfig {
 
 export const personalTrainerConfig: PersonalTrainerConfig = {
   // Informações pessoais
-  name: "Neto",
-  lastName: "Oliveira",
-  fullName: "Neto Oliveira",
+  name: "Pedro",
+  lastName: "Medeiros",
+  fullName: "Pedro Medeiros",
   title: "Personal Trainer",
-  cref: "", // TODO: Preencher com o CREF de Neto Oliveira
+  cref: "", // TODO: Preencher com o CREF de Pedro Medeiros
 
   // Contato
-  phone: "(83) 98711-3897",
-  whatsappUrl: "https://wa.me/5583987113897",
-  website: "https://instabio.cc/NetoOliveiraPersonal",
-  instagram: "netooliveirapersonal",
+  phone: "(83) 98720-7871",
+  whatsappUrl: "https://wa.me/5583987207871",
+  website: "https://client.mfitpersonal.com.br",
+  instagram: "pedutraining_bjj",
   location: "", // TODO: Preencher com a localização
   locationDetail: "Consultoria online e Acompanhamento presencial",
 
   // Experiência
-  yearsOfExperience: "X+", // TODO: Preencher com os anos de experiência
-  clientsTransformed: "Y+", // TODO: Preencher com o número de clientes transformados
-  satisfactionRate: "Z%", // TODO: Preencher com a taxa de satisfação
+  yearsOfExperience: "5+", // TODO: Preencher com os anos de experiência
+  clientsTransformed: "200+", // TODO: Preencher com o número de clientes transformados
+  satisfactionRate: "98%", // TODO: Preencher com a taxa de satisfação
 
   // Biografias
   shortBio:
-    "Consultoria online e Acompanhamento presencial. Vamos construir um futuro com mais qualidade de vida?",
+    "Especialista em Jiu-Jitsu e transformação corporal. Consultoria online e presencial para resultados mensuráveis. Vamos construir um futuro com mais qualidade de vida?",
   longBio:
-    "Sou Neto Oliveira, Personal Trainer apaixonado por transformar vidas através do movimento. Com especialização em emagrecimento e hipertrofia, ajudo meus alunos a alcançarem seus objetivos e a construírem rotinas mais saudáveis e felizes. Acredito que o corpo alcança o que a mente acredita e aplico essa filosofia em cada treino, criando programas realistas e eficazes que se adaptam à sua vida para resultados extraordinários.",
+    "Sou Pedro Medeiros, Personal Trainer e atleta de Jiu-Jitsu apaixonado por transformar vidas através do movimento e do esporte. Com especialização em emagrecimento, hipertrofia e treinamento desportivo, ajudo meus alunos a alcançarem seus objetivos com resultados mensuráveis e sustentáveis. Acredito que cada corpo tem seu potencial único e aplicamos essa filosofia em cada treino, criando programas personalizados que se adaptam à sua rotina para transformações extraordinárias.",
 
   // Imagens
   profileImage: "/imagens/1.png",
@@ -103,26 +103,28 @@ export const personalTrainerConfig: PersonalTrainerConfig = {
 
   // Especialidades
   specialties: [
-    "Consultoria Online",
-    "Acompanhamento Presencial",
-    "Emagrecimento",
-    "Hipertrofia",
+    "Treinamento Personalizado",
+    "Consultoria Online e Presencial",
+    "Hipertrofia / Emagrecimento",
     "Qualidade de Vida",
+    "Treinamento Desportivo",
+    "Jiu-Jitsu",
+    "Otimização de Resultados",
   ],
 
   // Planos Online
   onlinePlans: {
-    monthly: "R$ 99,90",
-    quarterly: "R$ 270,00",
-    semiannual: "R$ 480,00",
-    annual: "R$ 840,00",
+    monthly: "R$ 147,00",
+    quarterly: "R$ 397,00",
+    semiannual: "R$ 747,00",
+    annual: "R$ 1.397,00",
   },
 
   // Planos Presenciais
   presencialPlans: {
-    hybrid: "R$ 350,00",
-    presencial4x: "R$ 450,00",
-    presencial5x: "R$ 550,00",
+    hybrid: "R$ 497,00",
+    presencial4x: "R$ 647,00",
+    presencial5x: "R$ 797,00",
   },
 
   // Horários
@@ -137,16 +139,16 @@ export const personalTrainerConfig: PersonalTrainerConfig = {
   logos: {
     monogram: "/logo/monogram.png",
     complete: "/logo/logocompleta.png",
-    alt: "Neto Oliveira Logo",
+    alt: "Pedro Medeiros Logo",
   },
 
   // Mensagens WhatsApp
   whatsappMessages: {
-    start: "Olá Neto! Quero começar minha transformação!",
-    online: "Olá Neto! Quero o plano ONLINE!",
-    presencial: "Olá Neto! Quero saber mais sobre os planos presenciais!",
-    methodology: "Olá Neto! Quero conhecer sua metodologia!",
-    general: "Olá Neto! Vim pelo site e quero saber sobre os planos.",
+    start: "Olá Pedro! Quero começar minha transformação!",
+    online: "Olá Pedro! Quero o plano ONLINE!",
+    presencial: "Olá Pedro! Quero saber mais sobre os planos presenciais!",
+    methodology: "Olá Pedro! Quero conhecer sua metodologia!",
+    general: "Olá Pedro! Vim pelo site e quero agendar minha avaliação física + consultoria!",
   },
 }
 
