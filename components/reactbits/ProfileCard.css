@@ -15,6 +15,8 @@
   max-width: 400px;
   margin: 0 auto;
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-user-select: none; /* Safari */
+  user-select: none; /* Standard */
 }
 
 /* Glow externo suave */
@@ -507,7 +509,11 @@
 
 @media (min-width: 1024px) {
   .pc-card-wrapper {
-    transform: scale(1.20);
+    transform: scale(1.10);
+  }
+
+  .pc-card-wrapper:hover {
+    transform: translateY(-8px) scale(1.20);
   }
 
   .pc-avatar-content .avatar {
@@ -517,12 +523,20 @@
 
 @media (min-width: 1440px) {
   .pc-card-wrapper {
-    transform: scale(1.25);
+    transform: scale(1.15);
+  }
+
+  .pc-card-wrapper:hover {
+    transform: translateY(-8px) scale(1.25);
   }
 }
 
 @media (min-width: 1920px) {
   .pc-card-wrapper {
-    transform: scale(1.30);
+    transform: scale(1.20);
+  }
+
+  .pc-card-wrapper:hover {
+    transform: translateY(-8px) scale(1.30);
   }
 } 

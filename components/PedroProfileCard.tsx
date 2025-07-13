@@ -8,7 +8,7 @@ export default function PedroProfileCard() {
     <div className="w-full flex justify-center">
       <ProfileCard
         avatarUrl={personalTrainerConfig.profileImage}
-        miniAvatarUrl={personalTrainerConfig.profileImage}
+        miniAvatarUrl="/imagens/3.png"
         name={personalTrainerConfig.fullName}
         title={personalTrainerConfig.title}
         handle={personalTrainerConfig.instagram}
